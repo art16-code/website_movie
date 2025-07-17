@@ -1,0 +1,16 @@
+@import "../node_modules/bootstrap/scss/_functions.scss";
+@import "../node_modules/bootstrap/scss/_variables.scss";
+
+$custom-theme-colors:(
+    "light-color": #ECEBDE,
+    "light-opacity": rgba(0, 0, 0, 0.493),
+    "light-green": #66785F,
+    "dark-green": #4B5945,
+    
+);
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+
