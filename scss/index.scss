@@ -2,15 +2,38 @@
 @import "../node_modules/bootstrap/scss/_variables.scss";
 
 $custom-theme-colors:(
-    "light-color": #ECEBDE,
-    "light-opacity": rgba(0, 0, 0, 0.493),
-    "light-green": #66785F,
-    "dark-green": #4B5945,
+    
+   
+    "light-blue":#799EFF,
+    "black":#000000,
+    "navy":#113F67,
+    "light-color":#F5EEDC,
     
 );
 $theme-colors: map-merge($custom-theme-colors, $theme-colors);
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+.carousel-item{
+    height:500px;
+    width: 100%;
+    overflow: hidden;
+    .d-block{
+        max-width: 100%;
+        height: 500px;
+    }
+}
+.card{
+    width: max-content;
+    .card-text{
+        max-width:250px;
+    }
+}
+
+
+
+
 
 
 

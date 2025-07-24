@@ -1,0 +1,80 @@
+[
+ {
+"name":"The bank job ",
+"image":"./image/The Bank Job.webp",
+"categories":["action","drama"],
+"raiting":5,
+"index":0
+},
+{
+"name":"1+1 ",
+"image":"./image/1+1.webp",
+"categories":["drama","comedy"],
+"raiting":5,
+"index":1
+},
+{
+"name":"American Pie",
+"image":"./image/America Pie.webp",
+"categories":["comedy"],
+"raiting":4,
+"index":2
+},
+{
+"name":"Cast away ",
+"image":"./image/cast away.webp",
+"categories":["drama"],
+"raiting":5,
+"index":3
+},
+{
+"name":"Constantine ",
+"image":"./image/Constantine.webp",
+"categories":["Thriller"],
+"raiting":5,
+"index":4
+},
+{
+"name":"Fall ",
+"image":"./image/Fall.webp",
+"categories":["drama","thriller"],
+"raiting":4,
+"index":5
+},
+{
+"name":"The Hangover ",
+"image":"./image/Hangover.webp",
+"categories":"comedy",
+"raiting":5,
+"index":6
+},
+{
+"name":"Parker ",
+"image":"./image/parker.webp",
+"categories":["action",""],
+"raiting":5,
+"index":7
+},
+{
+"name":"Prisoners ",
+"image":"./image/prisoners.webp",
+"categories":["action",""],
+"raiting":4.5,
+"index":8
+},
+{
+"name":"The Departed ",
+"image":"./image/The Departed.webp",
+"categories":["action","drama"],
+"raiting":5,
+"index":9
+},
+{
+"name":"The Revenant ",
+"image":"./image/The Revenant.webp",
+"categories":["action","drama"],
+"raiting":5,
+"index":10
+}
+
+]
