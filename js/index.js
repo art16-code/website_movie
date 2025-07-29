@@ -15,7 +15,14 @@ show.forEach(element => {
  <h4>${element.name}</h4>
  </div>`
  allMovies.appendChild(date);
-});
-  
+});  
 }
+var categories = document.getElementsByClassName("dropdown-item");
+categories.forEach( (item)=>{
+item.addEventListener("click",function(){
+var text = this.innerHTML;
+localStorage.setItem("categories",text);
+});
+
+})
 
