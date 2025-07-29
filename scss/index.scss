@@ -30,9 +30,15 @@ $theme-colors: map-merge($custom-theme-colors, $theme-colors);
         max-width:250px;
     }
 }
-
-
-
+.custom-card {
+&:hover{
+    box-shadow:1px 1px 10px #113F67;
+}
+img{
+    max-width: 100%;
+    height: 200px;
+}
+}
 
 
 

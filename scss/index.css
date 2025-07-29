@@ -12351,4 +12351,12 @@ textarea.form-control-lg {
 }
 .card .card-text {
   max-width: 250px;
+}
+
+.custom-card:hover {
+  box-shadow: 1px 1px 10px #113F67;
+}
+.custom-card img {
+  max-width: 100%;
+  height: 200px;
 }/*# sourceMappingURL=index.css.map */
