@@ -17,12 +17,5 @@ show.forEach(element => {
  allMovies.appendChild(date);
 });  
 }
-var categories = document.getElementsByClassName("dropdown-item");
-categories.forEach( (item)=>{
-item.addEventListener("click",function(){
-var text = this.innerHTML;
-localStorage.setItem("categories",text);
-});
 
-})
 

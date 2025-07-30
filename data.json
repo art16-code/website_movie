@@ -30,7 +30,7 @@
 {
 "name":"Constantine ",
 "image":"./image/Constantine.webp",
-"categories":["Thriller"],
+"categories":["thriller"],
 "raiting":5,
 "index":4
 },
@@ -44,21 +44,21 @@
 {
 "name":"The Hangover ",
 "image":"./image/Hangover.webp",
-"categories":"comedy",
+"categories":["comedy"],
 "raiting":5,
 "index":6
 },
 {
 "name":"Parker ",
 "image":"./image/parker.webp",
-"categories":["action",""],
+"categories":["action"],
 "raiting":5,
 "index":7
 },
 {
 "name":"Prisoners ",
 "image":"./image/prisoners.webp",
-"categories":["action",""],
+"categories":["action"],
 "raiting":4.5,
 "index":8
 },

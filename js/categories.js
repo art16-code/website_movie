@@ -6,12 +6,11 @@ fetch("./data.json")
  
 });
 
-
+var categories = localStorage.getItem("categories");
+console.log(categories);
  function display(jsonData) {
- var filterData = jsonData.filter(item =>{
-    
- });
- 
-
+ var filterData = jsonData.filter(item =>item.categories.includes(categories));
+console.log(filterData);
+  
 }
 
