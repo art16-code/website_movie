@@ -6,4 +6,4 @@ var text = this.innerHTML.toLowerCase();
 localStorage.setItem("categories",text);
 });
 
-})
+});
