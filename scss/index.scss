@@ -24,13 +24,21 @@ $theme-colors: map-merge($custom-theme-colors, $theme-colors);
         height: 500px;
     }
 }
+.cards{
+
+
 .card{
     width: max-content;
     .card-text{
+       
         max-width:250px;
     }
 }
+}
 .custom-card {
+   
+        max-width: max-content ;
+    
 &:hover{
     box-shadow:1px 1px 10px #113F67;
 }
@@ -39,6 +47,16 @@ img{
     height: 200px;
 }
 }
+.raiting {
+ i{
+    color:orange;
+ }
+}
+a{
+ text-decoration: none;
+}
+
+
 
 
 
