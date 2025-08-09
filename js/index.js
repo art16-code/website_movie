@@ -11,14 +11,24 @@ show.forEach(element => {
  var date = document.createElement("div");
  date.classList.add("col-lg-3","col-md-4","col-sm-6");
 
- date.innerHTML = `<a href="movie.html"><div class="card custom-card my-3 p-3">
+ date.innerHTML = `<a href="movie.html"><div class="card custom-card my-3 p-3" data-index="${element.index}">
  <img src="${element.image}">
  <h4>${element.name}</h4>
  <p class="raiting d-flex justify-content-around">${star(element.raiting)}</p>
  </div> </a>`
+ 
+var movie = document.getElementsByClassName("custom-card");
+Array.from(movie).forEach( (item)=>{
+    item.addEventListener("click",function(){
+        localStorage.setItem("movieSelected",this.getAttribute("data-index"))
+
+        
+    })
+})
  allMovies.appendChild(date);
 });  
 }
+
 function star(raiting){
 var rate = "";
 var halfStar = raiting % 1 !==0;

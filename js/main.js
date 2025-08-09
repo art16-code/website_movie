@@ -8,12 +8,3 @@ display();
 });
 
 });
-var movie = document.getElementsByClassName("custom-card");
-Array.from(movie).forEach( (item)=>{
-    item.addEventListener("click",function(){
-        localStorage.setItem("000","qtwte")
-
-        
-    })
-})
- 

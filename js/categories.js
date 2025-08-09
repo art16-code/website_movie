@@ -18,12 +18,15 @@ console.log(filterData);
    div.classList.add("col-lg-3","col-md-4","col-sm-6");
    div.innerHTML =`<a href="movie.html"><div class=" card custom-card my-3 p-3" data-index="${item.index}">
    <img src="${item.image}">
-
-   
-   
    <h4>${item.name}</h4>
    <p class="raiting d-flex justify-content-around">${star(item.raiting)}</p>
    </div></a>`
+   var movie = document.getElementsByClassName("custom-card");
+   Array.from(movie).forEach((films) =>{
+    films.addEventListener("click", function(){
+      localStorage.setItem("movieSelected",this.getAttribute("data-index"))
+    })
+   })
   
    film.appendChild(div);
   });
