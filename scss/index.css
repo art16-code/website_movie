@@ -12371,4 +12371,8 @@ textarea.form-control-lg {
 
 a {
   text-decoration: none;
+}
+
+.movie.raiting {
+  max-width: 200px;
 }/*# sourceMappingURL=index.css.map */
