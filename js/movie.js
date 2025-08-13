@@ -24,26 +24,3 @@ console.log(items.index);
     })
 }
 
-
-function star(raiting){
-var rate = "";
-var halfStar = raiting % 1 !==0;
-var fullStar = Math.floor(raiting);
-for(i = 0; i < fullStar;i++){
- rate +=`<i class="bi bi-star-fill"></i>`;
-}
-if(halfStar){
-    rate +=`<i class="bi bi-star-half"></i>`;
-}
-for(i = fullStar + (halfStar? 1:0);i <= 5;i++){
-rate +=`<i class="bi bi-star"></i>`;
-}
-return rate;
-
-
-}
-
- 
-
-
-
