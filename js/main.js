@@ -55,18 +55,19 @@ var search = document.getElementById("search-btn");
 var input = document.getElementById("search-inp");
  var film = document.getElementById("movie");
 search.addEventListener("click",find);
-var searchMovies;
+
 function find(e){
     e.preventDefault();
   var text = input.value.trim().toLowerCase();
   var  storage = data.filter( movie =>{
-    return movie.name.toLowerCase().indexOf(text)===0;
+    return movie.name.toLowerCase().includes(text);
  
   });
-  console.log(storage);
+
   if( storage.length > 0){
-//  window.location.href = "storage.html";
-  searchMovies = storage; 
+    localStorage.setItem("filteredMovie",JSON.stringify(storage))
+  window.location.href = "storage.html";
+  
   }else{
     alert("No movie found");
   }
